@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['damaged_capsule', 'intact_capsule']
+
+roboflow:
+  workspace: 8250898-estg-ipp-pt
+  project: coffee-capsule-defect-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/8250898-estg-ipp-pt/coffee-capsule-defect-detection/dataset/1

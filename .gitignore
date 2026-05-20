@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+
+dataset/runs/
+runs/
+
+*.pt
+
+output*.jpg
+
+*.png
+
+.idea/
+.vscode/
+
+pagefile.sys
